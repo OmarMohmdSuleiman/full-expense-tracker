@@ -3,3 +3,5 @@ function App(){
     <div><h1>Expense tracker</h1></div>
   )
 }
+
+export default App;
