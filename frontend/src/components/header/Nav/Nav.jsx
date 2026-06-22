@@ -14,6 +14,7 @@ return (
         <nav className="navbar">
             <div className="logo"><p>logo</p></div>
             <div className="nav-sections">
+                
                 {navSections.map((item) => (
                     <NavLink key={item.name} to={item.path}>
                         {item.name}
